@@ -1,0 +1,148 @@
+body {	
+	position: relative;
+	width: 1440px;
+	height: 1024px;	
+	background: #333333;
+}
+
+header {
+	position: absolute;
+	width: 655px;
+	height: 65px;
+	left: 65px;
+	top: 42px;
+	font-family: 'Inter';
+	font-style: italic;
+	font-weight: 900;
+	font-size: 48px;
+	line-height: 58px;
+	color: #FFFFFF;
+}
+
+h1 {
+	font-family: 'Inter';
+	font-style: italic;
+	font-weight: 900;
+	font-size: 48px;
+	line-height: 58px;
+	color: #FFFFFF;
+}
+
+h2 {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	color: #000000;
+	font-style: italic;
+}
+
+p {
+	color: #000000;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+li {
+	margin-bottom: 5px;
+	font-family: 'Inter';
+	font-style: italic;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 29px;
+	color: #000000;
+}
+
+img {
+	display: block;
+	margin: 0 auto;
+	max-width: 200px;
+	height: auto;
+	border-radius: 50%;
+	border: 3px solid #333;
+}
+
+section {
+	margin-bottom: 30px;
+	padding: 20px;
+}
+
+.datos {
+	position: absolute;
+	width: 558px;
+	height: 250px;
+	left: 65px;
+	top: 488px;
+	
+	background: #BCB6B6;
+	border-radius: 40px;
+}
+
+.diseño {
+	position: absolute;
+	width: 250px;
+	height: 250px;
+	left: 781px;
+	top: 193px;
+
+	background: #EE520F;
+	border-radius: 35px;
+}
+
+.talleres {
+	position: absolute;
+	width: 250px;
+	height: 250px;
+	left: 781px;
+	top: 488px;
+	
+	background: #EE520F;
+	border-radius: 35px;
+}
+
+.consultas {
+	position: absolute;
+	width: 250px;
+	height: 250px;
+	left: 1108px;
+	top: 193px;
+	
+	background: #EE520F;
+	border-radius: 35px;
+}
+
+.retos {
+	position: absolute;
+	width: 250px;
+	height: 250px;
+	left: 1108px;
+	top: 488px;
+	
+	background: #EE520F;
+	border-radius: 35px;
+}
+
+.presentacion {
+	position: absolute;
+	width: 1293px;
+	height: 194px;
+	left: 65px;
+	top: 787px;
+	
+	background: #BCB6B6;
+	border-radius: 40px;
+}
+
+.fotografia {
+	position: absolute;
+	width: 250px;
+	height: 250px;
+	left: 219px;
+	top: 193px;
+}
+
+.datos li{
+	line-height: 60px;
+}
