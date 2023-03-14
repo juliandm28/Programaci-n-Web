@@ -1,0 +1,84 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="tabla.css">
+    <title>Ejercicio Tabla y formulario</title>
+</head>
+<body>
+    <h1>Ejercicio Tabla y formulario</h1>
+    <hr>
+    <h2>EJEMPLO DE TABLA</h2>
+    <table>
+        <tr class="titabla">  
+            <th class="titabla1">Ciudad</th>
+            <th>Temperatura</th>
+            <th>Fecha</th>
+            <th>Altitud</th>
+            <th>Poblacion</th>
+            <th class="titabla2">Raking</th>
+        </tr>
+        <tr class="col1">
+            <td>Bogota</td>
+            <td>10</td>
+            <td>11/03/2023</td>
+            <td>2600</td>
+            <td>8 millones</td>
+            <td>1</td>
+        </tr>
+        <tr class="col2">
+            <td>Medellin</td>
+            <td>19</td>
+            <td>11/03/2023</td>
+            <td>1600</td>
+            <td>4 millones</td>
+            <td>2</td>
+        </tr>
+        <tr class="col1">
+            <td>Envigado</td>
+            <td>20</td>
+            <td>11/03/2023</td>
+            <td>1600</td>
+            <td>150 mil</td>
+            <td>3</td>
+        </tr>
+        <tr class="col2">
+            <td>Cali</td>
+            <td>25</td>
+            <td>11/03/2023</td>
+            <td>1400</td>
+            <td>2 millones</td>
+            <td>2</td>
+        </tr>
+        <tr class="col1">
+            <td class="titabla3">Bello</td>
+            <td>23</td>
+            <td>11/03/2023</td>
+            <td>1000</td>
+            <td>100 mil</td>
+            <td class="titabla4">3</td>
+        </tr>
+    </table>
+    <hr>
+    <form action="guardar.php" method="get">
+        <h2>Datos Personales</h2>
+        <label for="nombres">Nombres:</label> <input type="text" name="nombres"> <br>
+        <label for="apellidos">Apellidos:</label> <input type="text" name="apellidos"> <br>
+        <label for="email">Email:</label> <input type="email" name="email" placeholder="Digite correo electronico"> <br>
+        <label for="sexo">Sexo:</label> <input class="opt" type="radio" name="Sexo" id="" value="M"> <label for="">Masculino</label> <input class="opt" type="radio" name="Sexo" id="" value="F"> <label for="">Femenino</label> <br>
+        <div class="Hobbys">
+            <h3>Hobbys</h3>
+            <label for="hobby1">Cine</label> <input class="opt" type="checkbox" name="hobby1" value="Cine">
+            <label for="hobby2">Natacion</label> <input class="opt" type="checkbox" name="hobby2" value="Natacion">
+            <label for="hobby3">Ciclismo</label> <input class="opt" type="checkbox" name="hobby3" value="Ciclismo">
+            <label for="hobby4">Tenis</label> <input class="opt" type="checkbox" name="hobby4" value="Tenis"> <br>
+        </div>
+        <input type="color"> <br>
+        <label for="clave"></label> <input type="password"> <br>
+        <input class="boton" type="reset">
+        <input class="boton" type="submit">
+    </form>
+    
+</body>
+</html>

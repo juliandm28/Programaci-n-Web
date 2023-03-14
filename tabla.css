@@ -1,0 +1,109 @@
+body{
+    width: 1440px;
+    background-color: rgb(100, 96, 95);
+    text-align: center;
+    
+
+}
+
+table{
+    width: 750px;
+    height: 250px;
+    border-radius: 25px;
+    border-style:dashed;
+    border-color: aqua;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+th{
+    padding: 15px;
+}
+
+td{
+    border-style: solid;
+    border-color: chartreuse;
+    padding: 10px;
+    text-align: center;
+}
+
+td:hover{
+    border-color: blue;
+    background-color: violet;
+}
+
+form{
+    border-color: blue;
+    border-radius: 25px;
+    border-style: solid;
+    background-color: grey;
+    width: 500px;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+label{
+    color: brown;
+}
+
+input{
+    border-radius: 25px;
+    background-color: beige;
+    color: red;
+    padding: 3px;
+}
+
+.boton{
+    background-color: black;
+    color: blue;
+    padding: 0;
+    width: 100px;
+    height: 40px;
+}
+
+.boton:hover{
+    background-color: blueviolet;
+    color: #e00c0c;
+}
+
+.titabla{
+    background-color: rgb(43, 43, 47);
+    color: aqua;
+}
+
+.titabla1{
+    border-top-left-radius: 25px;
+}
+
+.titabla2{
+    border-top-right-radius: 25px;
+}
+
+.titabla3{
+    border-bottom-left-radius: 25px;
+}
+
+.titabla4{
+    border-bottom-right-radius: 25px;
+}
+
+.col1{
+    background-color: forestgreen;
+}
+
+.col2{
+    background-color: rgb(117, 146, 117);
+}
+
+.opt{
+    width: 15px;
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+
+.hobbys{
+    background-color: darksalmon;
+}
