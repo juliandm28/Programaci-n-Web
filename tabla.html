@@ -7,8 +7,20 @@
     <title>Ejercicio Tabla y formulario</title>
 </head>
 <body>
+    <header id="inicio">
+        <nav>
+            <a class="boton1" href="#tabla">Tabla</a>
+            <a class="boton1" href="#formulario">Formulario</a>
+            <a class="boton1" href="#multimedia">Multimedia</a>
+            <a class="boton1" href="#bingo">Bingo</a>
+            <!--<a class="boton" href=""></a>-->
+        </nav>
+    </header>
+
     <h1>Ejercicio Tabla y formulario</h1>
     <hr>
+    <section id="tabla">
+
     <h2>EJEMPLO DE TABLA</h2>
     <table>
         <tr class="titabla">  
@@ -60,7 +72,14 @@
             <td class="titabla4">3</td>
         </tr>
     </table>
+    
+    </section>
+
     <hr>
+
+    <section id="formulario">
+        <h2>Ejemplo de tabla</h2>
+
     <form action="guardar.php" method="get">
         <h2>Datos Personales</h2>
         <label for="nombres">Nombres:</label> <input type="text" name="nombres"> <br>
@@ -76,9 +95,34 @@
         </div>
         <input type="color"> <br>
         <label for="clave"></label> <input type="password"> <br>
-        <input class="boton" type="reset">
-        <input class="boton" type="submit">
+        <input class="boton2" type="reset">
+        <input class="boton2" type="submit">
     </form>
+    </section>
+    <br>
+
+    <section id="multimedia">
+        <h2>Ejemplo Multimedia</h2>
+
+        <video width="300px" height="300px" controls>
+            <source src="../vinilo-57307.mp4" type="video/mp4">
+            <source src="../vinilo-57307.ogg" type="video/ogg">
+            Your browser does not support the video tag
+        </video>
+
+        <audio controls>
+            <source src="../cinim-brainfluid-122844.mp3" type="audio/mpeg">
+            <source src="../cinim-brainfluid-122844.ogg" type="audio/ogg"> 
+        </audio>
+
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/YvzBSQ2YVQc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+        <iframe src="https://www.iue.edu.co" width="500px" height="500px" frameborder="0"></iframe>
+    </section>
+
+    <section id="bingo">
+        
+    </section>
     
 </body>
 </html>

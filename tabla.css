@@ -44,6 +44,16 @@ form{
     text-align: center;
 }
 
+nav{
+    background-color: antiquewhite;
+    height: 50px;
+    padding-top: 35px;
+}
+
+a{
+    text-decoration: none;
+}
+
 label{
     color: brown;
 }
@@ -55,7 +65,7 @@ input{
     padding: 3px;
 }
 
-.boton{
+.boton2{
     background-color: black;
     color: blue;
     padding: 0;
@@ -63,7 +73,23 @@ input{
     height: 40px;
 }
 
-.boton:hover{
+.boton2:hover{
+    background-color: blueviolet;
+    color: #e00c0c;
+}
+
+.boton1{
+    width: 250px;
+    height: 40px;
+    margin: 15px;
+    padding: 15px;
+    border-radius: 15px;
+    border-style: solid;
+    background-color: black;
+    color: blue;
+}
+
+.boton1:hover{
     background-color: blueviolet;
     color: #e00c0c;
 }
