@@ -1,11 +1,14 @@
 body {
-    background-color: gray;
+  background-image: url('paisaje.jpg');
+  background-size: cover;
+  
 }
 
 h1 {
     text-align: center;
     font-size: 2.5em;
     margin-top: 50px;
+    color: white;
   }
   
   section {
