@@ -1,0 +1,86 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="trabajojss.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Taller</h1>
+
+    <!-- Punto 1: Solicitar nombre y edad -->
+    <h2>Punto 1</h2>
+    <label for="name">Nombre:</label>
+    <input type="text" id="name">
+    <label for="age">Edad:</label>
+    <input type="text" id="age">
+    <button onclick="saludar()">Saludar</button>
+  
+    <!-- Punto 2: Calcular área de figuras geométricas -->
+    <h2>Punto 2</h2>
+    <label for="figure">Figura:</label>
+    <select id="figure">
+      <option value="triangle">Triángulo</option>
+      <option value="rectangle">Rectángulo</option>
+      <option value="circle">Círculo</option>
+    </select>
+    <label for="base">Base:</label>
+    <input type="text" id="base">
+    <label for="height">Altura:</label>
+    <input type="text" id="height">
+    <label for="radius">Radio:</label>
+    <input type="text" id="radius">
+    <button onclick="calcularArea()">Calcular área</button>
+  
+    <!-- Punto 3: Imprimir números pares e impares -->
+    <h2>Punto 3</h2>
+    <label for="number">Número:</label>
+    <input type="text" id="number">
+    <button onclick="imprimirParesImpares()">Imprimir pares e impares</button>
+  
+    <!-- Punto 4: Verificar si un número es primo -->
+    <h2>Punto 4</h2>
+    <label for="primeNumber">Número:</label>
+    <input type="text" id="primeNumber">
+    <button onclick="verificarPrimo()">Verificar si es primo</button>
+  
+    <!-- Punto 5: Calcular factorial -->
+    <h2>Punto 5</h2>
+    <label for="factorialNumber">Número:</label>
+    <input type="text" id="factorialNumber">
+    <button onclick="calcularFactorial()">Calcular factorial</button>
+  
+    <!-- Punto 6: Sumar números hasta llegar a 50 -->
+    <h2>Punto 6</h2>
+    <label for="sumNumber">Número:</label>
+    <input type="text" id="sumNumber">
+    <button onclick="sumarNumeros()">Sumar números</button>
+  
+    <!-- Punto 7: Multiplicar números y clasificar pares e impares -->
+    <h2>Punto 7</h2>
+    <button  onclick="multiplicarNumeros()"
+    >Multiplicar números</button>
+  
+    <!-- Punto 8: Calcular letra de DNI -->
+    <h2>Punto 8</h2>
+    <label for="dniNumber">Número de DNI:</label>
+    <input type="text" id="dniNumber">
+    <button onclick="calcularLetraDNI()">Calcular letra</button>
+  
+    <!-- Punto 9: Contar consonantes, vocales y longitud de una palabra -->
+    <h2>Punto 9</h2>
+    <label for="word">Palabra:</label>
+    <input type="text" id="word">
+    <button onclick="contarCaracteres()">Contar caracteres</button>
+  
+    <!-- Punto 10: Buscar color en un array -->
+    <h2>Punto 10</h2>
+    <label for="color">Color:</label>
+    <input type="text" id="color">
+    <button onclick="buscarColor()">Buscar color</button>
+
+    <script src="trabajojss.js"></script>
+</body>
+</html>
+  
