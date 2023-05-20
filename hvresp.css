@@ -1,0 +1,120 @@
+body {
+	width: 100%;
+	height: 100%;
+	background: #333333;
+}
+
+header {
+	text-align: center;
+	width: 90%;
+	margin: 0 auto;
+	padding: 20px;
+	background: #B4ABAB;
+	border-radius: 45px;
+}
+
+h1 {
+	margin-bottom: 5px;
+	color: #000000;
+	font-style: italic;
+}
+
+h2 {
+	margin-top: 30px;
+	margin-bottom: 10px;
+	color: #000000;
+	font-style: italic;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+li {
+	margin-bottom: 5px;
+	font-family: 'Inter';
+	font-style: italic;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 29px;
+	color: #000000;
+}
+
+.fotografia {
+	margin-bottom: 30px;
+}
+
+.fotografia img {
+	display: block;
+	margin: 0 auto;
+	width: 200px;
+	height: auto;
+	border-radius: 50%;
+	border: 3px solid #333;
+}
+
+section {
+	margin-bottom: 30px;
+	padding: 20px;
+	color: #fff;
+}
+
+.estudios,
+.referencias,
+.presentacion,
+.datosad {
+	width: 90%;
+	margin: 0 auto;
+	padding: 20px;
+	border-radius: 45px;
+}
+
+.estudios,
+.referencias {
+	background: #B4ABAB;
+}
+
+.presentacion,
+.datosad {
+	background: #747474;
+}
+
+@media only screen and (min-width: 600px) {
+	header {
+		width: 70%;
+	}
+
+	.estudios,
+	.referencias {
+		width: 60%;
+	}
+
+	.presentacion,
+	.datosad {
+		width: 35%;
+	}
+}
+
+@media only screen and (max-width: 600px) {
+	header ul {
+		padding-inline-start: 15px;
+	}
+
+	section {
+		margin-bottom: 30px;
+	}
+
+	.fotografia img {
+		width: 100%;
+		height: auto;
+	}
+}
+
+@media only screen and (max-width: 600px) {
+	.presentacion,
+	.datosad {
+		margin-top: 30px;
+	}
+}
