@@ -12,7 +12,7 @@
     {
         "nombre": "Hot-Dog",
         "precio": 10.99,
-        "imagen": "imagenesfinal/hotdog.jfif"
+        "imagen": "imagenesfinal/hotdog.jpg"
     },
     {
         "nombre": "Nachos",
@@ -37,7 +37,7 @@
     {
         "nombre": "Ensalada",
         "precio": 4.99,
-        "imagen": "imagenesfinal/ensalada.jfif"
+        "imagen": "imagenesfinal/ensalada.jpg"
     },
     {
         "nombre": "Agua",
