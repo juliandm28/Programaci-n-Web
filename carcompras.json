@@ -1,0 +1,52 @@
+[
+    {
+        "nombre": "Hamburguesa",
+        "precio": 10.99,
+        "imagen": "imagenesfinal/hamburguesa-sencilla.jpg"
+    },
+    {
+        "nombre": "Pizza",
+        "precio": 10.99,
+        "imagen": "imagenesfinal/pizza.jpg"
+    },
+    {
+        "nombre": "Hot-Dog",
+        "precio": 10.99,
+        "imagen": "imagenesfinal/hotdog.jfif"
+    },
+    {
+        "nombre": "Nachos",
+        "precio": 10.99,
+        "imagen": "imagenesfinal/nachos.webp"
+    },
+    {
+        "nombre": "Papas Fritas",
+        "precio": 8.99,
+        "imagen": "imagenesfinal/papasfritas.jpg"
+    },
+    {
+        "nombre": "Galletas",
+        "precio": 4.99,
+        "imagen": "imagenesfinal/galletas.jpg"
+    },
+    {
+        "nombre": "Helado",
+        "precio": 4.99,
+        "imagen": "imagenesfinal/helado.webp"
+    },
+    {
+        "nombre": "Ensalada",
+        "precio": 4.99,
+        "imagen": "imagenesfinal/ensalada.jfif"
+    },
+    {
+        "nombre": "Agua",
+        "precio": 2.99,
+        "imagen": "imagenesfinal/agua.webp"
+    },
+    {
+        "nombre": "Refresco",
+        "precio": 2.99,
+        "imagen": "imagenesfinal/refresco.jpg"
+    }
+]
